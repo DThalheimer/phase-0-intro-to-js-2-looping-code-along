@@ -7,28 +7,15 @@
 
 const gifts = ["teddy bear", "drone", "doll"];
 
-function wrapGifts(gifts) {
+ /* function wrapGifts(gifts) {
     for (let i = 0; i < gifts.length; i++) {
         console.log(`Wrapped ${gifts[i]} and added a bow!`);
     }
     return gifts;
 
-}
+} */
 
 wrapGifts(gifts);
-
-const guests = ["Charlie", "Samip", "Ali"]
-
-function writeCards() {
-    for (let g = 0; g < gifts.length; g++) {
-        console.log(`Thank you, ${guests[g]}, for the wonderful birthday gift!`);
-    }
-    debugger;
-    return guests;
-    
-}
-
-writeCards(["Charlie", "Samip", "Ali"], "birthday");
 
 function wrapGifts(gifts) {
     let i = 0;
@@ -40,9 +27,27 @@ function wrapGifts(gifts) {
 }
 
 
+const guests = ["Charlie", "Samip", "Ali"]
 
 
-/*const num = []
+
+function writeCards(guests) {
+    for (let g = 0; g < gifts.length; g++) {
+        console.log(`Thank you, ${guests[g]}, for the wonderful surprise gift!`);
+    
+    debugger;
+    }
+    return guests;
+    
+}
+
+writeCards(guests);
+
+
+
+
+
+const num = []
 
 function countdown(num) {
     let n = num;
@@ -55,4 +60,3 @@ function countdown(num) {
 
 
 countdown(20);
-*/
